@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Amazon Home Page</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <header>
+      <!-- 1st block of navbar -->
+      <nav class="navbar-first">
+        <!-- Amazon logo -->
+        <div class="nav-logo">
+          <div>
+            <a href="#"><img id="logo" src="logo.webp" alt="Amazon" /></a>
+          </div>
+        </div>
+        <!-- Address location -->
+        <div id="nav-location">
+          <div id="location">
+            <i class="fa-solid fa-location-dot" id="loc-icon"></i>
+            <span id="deliver">Deliver to</span>
+            <span id="india"><b>India</b></span>
+          </div>
+        </div>
+        <!-- Search bar -->
+        <div id="nav-search">
+          <div id="search">
+            <select id="selection">
+              <option class="select-options" value="All Departments">
+                All
+              </option>
+              <option class="select-options" value="Arts and Crafts">
+                Arts and Crafts
+              </option>
+              <option class="select-options" value="Automotive">
+                Automotive
+              </option>
+              <option class="select-options" value="Baby">Baby</option>
+              <option class="select-options" value="Books">Books</option>
+              <option class="select-options" value="Computers">
+                Computers
+              </option>
+              <option class="select-options" value="Fashion">Fashion</option>
+              <option class="select-options" value="Electronics">
+                Electronics
+              </option>
+              <option class="select-options" value="Home And Kitchen">
+                Home And Kitchen
+              </option>
+              <option class="select-options" value="Luggage">Luggage</option>
+              <option class="select-options" value="Movies and TV">
+                Movies and TV
+              </option>
+            </select>
+            <input id="search-box" type="text" placeholder="Search Amazon" />
+            <button id="search-icon">
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+          </div>
+        </div>
+        <!-- Language -->
+        <div id="nav-lang">
+          <div id="lang">
+            <img id="lang-img" src="flag.webp" alt="FLag" />
+            <select id="language">
+              <option class="lang-options" value="">EN</option>
+              <option class="lang-options" value="EN">English - EN</option>
+              <option class="lang-options" value="ES">Español - ES</option>
+              <option class="lang-options" value="DS">Duetsch - DS</option>
+              <option class="lang-options" value="HI">हिन्दी - HI</option>
+            </select>
+          </div>
+        </div>
+        <!-- Sign in -->
+        <div id="nav-signin">
+          <div id="signin">
+            <p id="sign-line1">Hello, sign in</p>
+            <p id="sign-line2">Account & Lists</p>
+          </div>
+        </div>
+        <!-- Return and Orders -->
+        <div id="nav-return">
+          <div id="return">
+            <p id="return-line1">Returns</p>
+            <p id="return-line2">& Orders</p>
+          </div>
+        </div>
+        <!-- Cart -->
+        <div id="nav-cart">
+          <div id="cart">
+            <i
+              id="cart-icon"
+              class="fa-solid fa-cart-shopping"
+              style="color: #ffa836"
+            ></i>
+            <p style="font-size: 1rem"><b>Cart</b></p>
+          </div>
+        </div>
+      </nav>
+      <!-- 2nd block of navbar -->
+      <nav class="navbar-second">
+        <div class="texts">
+          <i class="fa-solid fa-bars" style="color: #ffffff"></i> All
+        </div>
+        <div class="texts" id="deal">Today's Deal</div>
+        <div class="texts" id="reg">Registry</div>
+        <div class="texts" id="service">Customer Service</div>
+        <div class="texts" id="card">Gift Cards</div>
+        <div class="texts" id="sell">Sell</div>
+      </nav>
+    </header>
+    <main>
+      <!-- Categories -->
+      <div id="back-image"></div>
+      <div class="category">
+        <div class="photos" id="p1">
+          <h2>Toys under $25</h2>
+          <img src="toys.jpg" alt="Toys" />
+          <a href="#">Shop Now</a>
+        </div>
+        <div class="photos" id="p2">
+          <h2>Small gifts under $20</h2>
+          <img src="smallgifts.jpg" alt="Small gifts" />
+          <a href="#">Shop Now</a>
+        </div>
+        <div class="photos" id="p3">
+          <h2>Deals in PCs</h2>
+          <img src="PCdeals.jpg" alt="PC" />
+          <a href="#">Shop Now</a>
+        </div>
+        <div class="photos" id="p4">
+          <h2>Shop deals in Fashion</h2>
+          <img src="fashiontrend.jpg" alt="Fashion" />
+          <a href="#">Shop Now</a>
+        </div>
+        <div class="photos" id="p5">
+          <h2>Home refreshing ideas</h2>
+          <img src="refreshideas.jpg" alt="Refresh" />
+          <a href="#">Shop Now</a>
+        </div>
+        <div class="photos" id="p6">
+          <h2>Deals in Tools</h2>
+          <img src="tools.jpg" alt="Tools" />
+          <a href="#">Shop Now</a>
+        </div>
+        <div class="photos" id="p7">
+          <h2>A whole new way to work</h2>
+          <img src="laptops.jpg" alt="New way" />
+          <a href="#">Shop Now</a>
+        </div>
+        <div class="photos" id="p8">
+          <h2>For your Fitness Needs</h2>
+          <img src="fitness.jpg" alt="Fitness" />
+          <a href="#">Shop Now</a>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="foot">
+        <!-- Back to top button  -->
+        <div><a href="#" id="back-top">Back to top</a></div>
+        <!-- Different links  -->
+        <div id="add-links">
+          <div class="links-1">
+            <p>Get to know us</p>
+            <a class="link" href="#">Careers</a>
+            <a class="link" href="#">Blog</a>
+            <a class="link" href="#">About Amazon</a>
+            <a class="link" href="#"> Investor Relations</a>
+            <a class="link" href="#">Amazon Devices</a>
+            <a class="link" href="#">Amazon Science</a>
+          </div>
+          <div class="links-2">
+            <p>Make Money with Us</p>
+            <a class="link" href="#"> Sell products on Amazon</a>
+            <a class="link" href="#"> Sell on Amazon Business</a>
+            <a class="link" href="#">Sell apps on Amazon</a>
+            <a class="link" href="#">Become an Affiliate</a>
+            <a class="link" href="#">Advertise Your Products</a>
+            <a class="link" href="#">Host an Amazon Hub</a>
+            <a class="link" href="#">See More Make Money with Us</a>
+          </div>
+          <div class="links-3"><p>Amazon Payment Products</p>
+            <a class="link" href="#"> Amazon Business Card</a>
+            <a class="link" href="#"> Shop with Points</a>
+            <a class="link" href="#"> Reload Your Balance</a>
+            <a class="link" href="#"> Amazon Currency Converter</a>
+          </div>
+          <div class="links-4"><p>Let Us Help You</p>	
+            <a class="link" href="#">Amazon and COVID-19</a>
+            <a class="link" href="#">Your Account</a>
+            <a class="link" href="#">Your Orders</a>
+            <a class="link" href="#">Shipping Rates & Policies</a>
+            <a class="link" href="#">Returns & Replacements</a>
+            <a class="link" href="#">Manage Your Content and Devices</a>
+            <a class="link" href="#">Amazon Assistant</a>
+           <a class="link" href="#">Help</a>
+          </div>
+        </div>
+        <!-- Line separating footer -->
+        <hr>
+        <!-- Last block -->
+        <div class="last-foot">
+          <a href="#"><img id="last-logo" src="logo.webp" alt="Amazon" /></a>
+          <p class="language"><img id="lang-globe" src="globe.ico" alt="Globe"/>English</p>        
+          <p class="currency"><i class="fa-solid fa-dollar-sign" style="color: #ffffff;"></i>USD - U.S. Dollar</p>        
+          <p class="location"><img id="lang-img" src="flag.webp" alt="FLag"/>United States</p>  
+        </div>      
+      </div>
+    </footer>
+  </body>
+</html>
